@@ -3,6 +3,6 @@ const app = express();
 
 app.get("/", (req, res) => res.send("Express on Vercel"));
 
-app.listen(3000, () => console.log("Server is ready on port 3000."));
+app.listen(8080, () => console.log("Server is ready on port 8080."));
 
 module.exports = app;
